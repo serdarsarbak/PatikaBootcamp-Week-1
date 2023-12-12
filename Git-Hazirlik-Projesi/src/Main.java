@@ -2,7 +2,13 @@
 public class Main {
     public static void main(String[] args) {
 
-        System.out.print("Patika.dev FullStack Java Spring boot & React Bootcamp");
+
+        int m = -12;
+        int n = -5;
+        int k = m%n;
+
+
+        System.out.print(k);
 
 
     }
