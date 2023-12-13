@@ -4,6 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
 
+        //kullanıcıdan alınacak üç sayı ile işlem önceliğine göre toplam hesaplama
+
         double a, b, c, total;
 
         Scanner input = new Scanner(System.in);
