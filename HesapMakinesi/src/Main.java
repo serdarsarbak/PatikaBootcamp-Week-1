@@ -3,6 +3,10 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+        //basit hesap makinesi
+        //kullanıcıdan alınan iki sayı ve işleme göre sonuç bulunur.
+
+
         int number1, number2, operator;
 
         Scanner input = new Scanner(System.in);
@@ -34,7 +38,7 @@ public class Main {
             case 4:
                 switch (number2) {
                     case 0:
-                        System.out.println("0 ile bölünme yapılamaz, tekrar deneyiniz.");
+                        System.out.println("0 ile bölme yapılamaz, tekrar deneyiniz.");
                         break;
 
                     default:
