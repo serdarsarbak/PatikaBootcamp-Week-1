@@ -2,6 +2,9 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
+        // kullanıcadan alınacak boy ve kilo değerlerine göre vücut kitle endeksi hesaplama
+        
         double height, weight, vki;
 
         Scanner input = new Scanner(System.in);
@@ -14,7 +17,7 @@ public class Main {
 
         vki = (weight / (height * height));
 
-        System.out.print("Vücut Kütle İndeksiniz: " + vki);
+        System.out.print("Vücut Kitle İndeksiniz: " + vki);
 
 
     }

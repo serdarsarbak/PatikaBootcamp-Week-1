@@ -2,6 +2,9 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+
+        // kullanıcıdan alınacak meyve kilolarına göre toplam maliyet hesaplanır.
+        
         double armPrice=2.14, elmPrice=3.67, domatPrice= 1.11, muzPrice=0.95, patPrice=5;
         double arm, elm, domat, muz, pat, total;
 
