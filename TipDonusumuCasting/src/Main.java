@@ -15,7 +15,6 @@ public class Main {
         double intDouble = myInt; //integarın double'a dönüşümü otamatik implicit casting
 
         //Sonuçların yazıdırılması:
-
         System.out.println(myDouble + " ondalık sayısının tam sayı hali: " + doubleInt );
         System.out.println(myInt + " tam sayısının ondalık hali: " + intDouble);
     }
