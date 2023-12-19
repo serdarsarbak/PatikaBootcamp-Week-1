@@ -2,7 +2,7 @@ import  java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        // Java döngüler ile fibonacci serisi bulan programı.
+        // Java döngüler ile fibonacci serisi bulan program.
 
         int count =1;
         int total;
